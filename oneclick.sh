@@ -173,4 +173,4 @@ echo "║  → Generates real payloads in D:\\BLIZZARD_2025\\                   
 echo "║  → oneclick.sh included — instant rebuild                               ║"
 echo "╚═══════════════════════════════════════════════════════════════════════════╝"
 echo -e "\033[0m"
-    write a brief red team description of what this APT kit is capable of doing
+   
