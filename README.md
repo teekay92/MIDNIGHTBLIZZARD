@@ -17,6 +17,7 @@ APT 28 APT 29 FSB COZY BEAR MY NAME is FANCY BEAR WELCOME to MY BLACKHAT DUNGEON
 
 | **Category** | **Key Techniques** |
 |-------------|------------------|
+<img width="1347" height="721" alt="Screenshot 2025-11-28 233302" src="https://github.com/user-attachments/assets/a084308a-d7c9-4021-b189-d849d291e5da" />
 | **Persistence** | UEFI Rootkit, WMI Events, Scheduled Tasks |
 | **Evasion** | AMSI/ETW Bypass, EDR Kill Chain |
 | **Credentials** | Mimikatz 2025, Golden SAML, Kerberoasting |
