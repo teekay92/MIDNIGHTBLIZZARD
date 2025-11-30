@@ -189,6 +189,92 @@ git clone https://github.com/teekay92/MIDNIGHTBLIZZARD.git
 **Deploy responsibly. Test defensively. Emulate realistically.**
 
 ---
+This is just a simulation the binaries produced by this tool are 100 harmless they can not cause real world harm unless modified further with much technical expertise such as including a seperate Botnet UI panel for real time monitoring, Adding Custom ai driven phishing exploit and the ability to write custom exploits  , enhancing obfuscation ,polymorphism stealth UPX packing with that being said allow me to show the full project structure from which this midnight blizaard spy eye simulation was derived.                    
+spye eye project structure fig 1.1
+
+/SpyEye_KompleX_2025/
+├── README.md                          ← You are reading the cleaned version
+├── LICENSE                            ← Custom restrictive license (no sharing)
+├── .gitignore
+├── /docs/
+│   ├── architecture_diagram.png
+│   ├── killchain.md
+│   ├── evasion_techniques.md
+│   └── persistence_matrix.xlsx
+│
+├── /builder/                          ← SpyEye implant builder (real executable)
+│   ├── builder.exe                    ← GUI/CLI builder (AES-256 + polymorphic stub)
+│   ├── config_template.json
+│   ├── stubs/
+│   │   ├── x64_stub.exe           ← Ring0/Ring3 hybrid
+│   │   ├── x86_stub.exe
+│   │   └── arm64_stub.exe         ← For IoT/phones
+│   └── plugins/
+│       ├── keylogger.dll
+│       ├── screen_capture.dll
+│       ├── webcam_stream.dll
+│       ├── microphone.dll
+│       ├── clipboard_hijack.dll
+│       ├── browser_stealer.dll    ← Chrome/Edge/Firefox/Opera
+│       └── ransomware_module.dll  ← Optional extortion layer
+│
+├── /payloads/                         ← Generated implants go here
+│   ├── 2025-11-30_client1.exe
+│   └── archived/
+│
+├── /botnet_panel/                     ← SEPARATE C2 + Botnet Management Panel
+│   ├── /panel/                        ← Web panel (PHP 8.2 + Laravel 10)
+│   │   ├── app/
+│   │   ├── public/
+│   │   │   └── index.php
+│   │   ├── resources/views/
+│   │   │   ├── dashboard.blade.php
+│   │   │   ├── bots_online.blade.php
+│   │   │   ├── tasks.blade.php
+│   │   │   ├── files.blade.php
+│   │   │   ├── webcam_live.blade.php
+│   │   │   └── settings.blade.php
+│   │   ├── routes/web.php
+│   │   └── .env.example
+│   │
+│   ├── /gate/                         ← Gate.php (all bots connect here)
+│   │   ├── gate.php                   ← Single entry point (obfuscated)
+│   │   └── gate_backup.php
+│   │
+│   ├── /install/                      ← One-click installer for VPS
+│   │   ├── install.sh
+│   │   └── nginx.conf
+│   │
+│   ├── /database/
+│   │   └── spyeye_panel.sql           ← Bots, tasks, logs, screenshots, etc.
+│   │
+│   ├── /c2_servers/
+│   │   ├── domains.txt                ← Current live domains
+│   │   ├── fastflux_dns.py            ← Automated fast-flux script
+│   │   └── dga_generator.py           ← Domain Generation Algorithm (daily seeds)
+│   │
+│   └── /themes/
+│       └── dark_neon/                 ← Current panel theme
+│
+├── /cryptors/
+│   ├── hyperion.cpp                   ← FUD runtime cryptor
+│   ├── themida_vmprotect.conf
+│   └── packer.py                      ← Custom PE packer + anti-VM
+│
+├── /tools/
+│   ├── mass_spreader.exe              ← USB + LAN spreader
+│   ├── rdp_bruteforcer.py
+│   ├── email_spoofer/
+│   └── discord_token_grabber.py
+│
+├── /logs/                             ← Local builder logs (encrypted)
+├── /updates/
+│   └── 2025-11-30_update.bin         ← Silent update package
+│
+└── /evasion/
+    ├── av_bypass_tests/
+    ├── sandbox_evasion.cpp
+    └── anti_analysis_hooks.asm
 
 *Last Updated: November 28, 2025*  
 *Active TTPs: APT29/28 Joint Operations 2025*
